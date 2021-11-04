@@ -32,7 +32,7 @@
     "homebridge-plugin"
   ],
   "dependencies": {
-    "bluelinky": "^7.5.0"
+    "bluelinky": "github:huguesjoyal/bluelinky"
   },
   "devDependencies": {
     "@spotify/prettier-config": "^12.0.0",
