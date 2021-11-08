@@ -6,7 +6,7 @@ import { PlatformAccessory } from 'homebridge';
 import { HyundaiPlatform } from './platform';
 import initServices from './services';
 
-const REFRESH_INTERVAL = 1000 * 60 * 60; // once per hour, per https://github.com/Hacksore/bluelinky/wiki/API-Rate-Limits
+const REFRESH_INTERVAL = 1000 * 60 * 60 * 24; // once per hour, per https://github.com/Hacksore/bluelinky/wiki/API-Rate-Limits
 
 export class VehicleAccessory extends EventEmitter {
   private isFetching = false;
